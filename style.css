@@ -91,7 +91,7 @@ body {
     text-align: center;
 }
 
-.btn:hover {
+.btn:hover{
     background-color: #9a4fe0; 
     transform: translateY(-3px); 
 }
@@ -145,7 +145,6 @@ body {
     text-align: center;
     align-items: center;
     align-content: center;
-    /* height: 60vh; */
 }
 
 .skills-container {
@@ -177,11 +176,8 @@ body {
     transform: translateY(-10px) scale(1.05);
     box-shadow:
         0 0 15px #8e47d5,
-        /* outer glow */
         0 0 30px #4b1780,
-        /* second layer */
         0 0 45px #1e0439;
-        /* deeper glow */
 }
 
 .skill-card img {
@@ -543,7 +539,7 @@ summary{
 /*Education*/
 .education {
     text-align: center;
-    margin: 0 10%;;
+    margin: 0 10%;
 }
 
 .edu-block {
@@ -750,10 +746,6 @@ summary{
 .scroll-top-btn:hover {
     background-color: #9a52e0;
 }
-
-/* *{
-    outline: 1px solid red;
-} */
 
 /*---------------------------------------------------*/
 
@@ -1135,4 +1127,5 @@ summary{
     .footer{
         font-size: 0.8rem;
     }
+
 }
